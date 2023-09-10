@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.teams-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team {
+  margin: 20px;
+  flex: 0 0 calc(50% - 40px); /* 50% de ancho con margen */
+}
+
+.team img {
+  max-width: 200px;
+  height: auto;
+}
+
+.team a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.team a:hover {
+  background-color: #0056b3;
+}
+
+img {
+  width: 100px;
+}
